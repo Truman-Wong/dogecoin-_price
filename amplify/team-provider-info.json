@@ -1,0 +1,28 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dogefinal-dev-35013-authRole",
+      "UnauthRoleArn": "arn:aws:iam::486744622330:role/amplify-dogefinal-dev-35013-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::486744622330:role/amplify-dogefinal-dev-35013-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dogefinal-dev-35013-deployment",
+      "UnauthRoleName": "amplify-dogefinal-dev-35013-unauthRole",
+      "StackName": "amplify-dogefinal-dev-35013",
+      "StackId": "arn:aws:cloudformation:us-east-1:486744622330:stack/amplify-dogefinal-dev-35013/f50583b0-9160-11ec-bdfe-0e02ab9cf84b",
+      "AmplifyAppId": "d1dhcwjjqhxqbm"
+    }
+  },
+  "dogenew": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-dogefinal-dogenew-70029-authRole",
+      "UnauthRoleArn": "arn:aws:iam::486744622330:role/amplify-dogefinal-dogenew-70029-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::486744622330:role/amplify-dogefinal-dogenew-70029-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-dogefinal-dogenew-70029-deployment",
+      "UnauthRoleName": "amplify-dogefinal-dogenew-70029-unauthRole",
+      "StackName": "amplify-dogefinal-dogenew-70029",
+      "StackId": "arn:aws:cloudformation:us-east-1:486744622330:stack/amplify-dogefinal-dogenew-70029/8a1a0a10-917b-11ec-8f74-0aaf37110cdb",
+      "AmplifyAppId": "d12w354yu8tc8n"
+    }
+  }
+}
