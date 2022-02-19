@@ -1,0 +1,38 @@
+#AWS amplify GraphQL  Amazon DynamoDB
+
+//create react app
+npx create-react-app .
+//create github repo
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Truman-Wong/test.git
+git push -u origin main
+
+// install the amplify CLI : provide amplify commands
+
+npm install -g @aws-amplify/cli
+amplify configure
+copy paste your accessKeyId and secretAccessKey    Amazon IRM
+
+
+//install amplify ui libraries 
+npm install aws-amplify @aws-amplify/ui-react  
+
+//create amplify backend project
+amplify init 
+amplify add api   
+//GraphQL   ... API Key ... 7 no shcema; single object
+amplify push
+//yes yes 
+API queries and mutations  +Amazon DynamoDb table + create item
+ 
+frontend
+
+git add .
+git commit -m "final"
+git push
+
+->amazon consolo->frontend->Github->select github repository->enable auto +dev+service role-backend role->deploy
