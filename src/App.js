@@ -26,11 +26,11 @@ function App() {
     },[]);
      async function updateDogePrice(){
        try{
-      const dogeData=await API.graphql(graphqlOperation(getDoge));
-      const dogePrice=dogeData.data.getDoge.price+0.1;
-      console.log(dogePrice); 
-      const updatedDogePrice=await API.graphql(graphqlOperation(updateDoge,{input : dogePrice}));
-      setDogePrice(updatedDogePrice.data.updateDoge.price);
+      const dogeData=await API.graphql(graphqlOperation(getDoge))
+      const dogePrice=dogeData.data.getDoge.price+0.1
+      console.log(dogePrice) 
+      const updatedDogePrice=await API.graphql(graphqlOperation(updateDoge,{input : dogePrice}))
+      setDogePrice(updatedDogePrice.data.updateDoge.price)
        }
        catch(err){
          console.log("in updateprice err");
